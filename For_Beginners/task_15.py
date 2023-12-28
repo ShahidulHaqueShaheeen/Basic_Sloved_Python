@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1QTJL4dlmNxiwlR333XY58zSGEUaxIMeK
 """
 
-# Angle between hour and minute hand
+# Checking the two rectangle are overlapping or no
 
 def doOverlap(L1, R1, L2, R2):
     # Check for horizontal overlap
