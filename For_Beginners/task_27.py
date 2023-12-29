@@ -17,7 +17,7 @@ if n == 2:
 elif n > 2:
     for i in range(2,n):
 
-        if n % i == 0 or i == 1:
+        if n % i == 0:
             print("It is not a prime number")
             break
         else:
