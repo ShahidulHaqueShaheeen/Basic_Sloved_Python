@@ -20,8 +20,8 @@ elif n > 2:
         if n % i == 0:
             print("It is not a prime number")
             break
-        else:
-            print("It is a prime number")
-            break
+    else:
+        print("It is a prime number")
+        
 else:
     print("It is not a prime number")
