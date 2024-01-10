@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1QTJL4dlmNxiwlR333XY58zSGEUaxIMeK
 """
 
-n = int(input("Enter your number her : "))
+n = int(input("Enter your number here : "))
 
 c = 1
 result = 0
