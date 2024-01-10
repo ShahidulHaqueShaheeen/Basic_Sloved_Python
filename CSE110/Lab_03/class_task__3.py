@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1QTJL4dlmNxiwlR333XY58zSGEUaxIMeK
 """
 
-num = int(input("Enter your number her : "))
+num = int(input("Enter your number here : "))
 
 
 while num != 0:
