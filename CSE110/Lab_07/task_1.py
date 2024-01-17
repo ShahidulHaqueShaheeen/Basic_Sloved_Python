@@ -26,5 +26,3 @@ for j in range(N):
 n_arr[N] = new_value
 
 print(f"Resized Array: {n_arr}")
-
-print(np.arange(3))

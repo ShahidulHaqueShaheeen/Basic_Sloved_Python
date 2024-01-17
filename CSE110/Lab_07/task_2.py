@@ -26,4 +26,3 @@ for i in range(N):
         arr[i] = 0
 print(f"After modifying: {arr}")
 
-print(np.arange(3))
