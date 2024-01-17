@@ -44,32 +44,3 @@ sum1 = sum(matrix[i, i] for i in range(rows))
 sum2 = sum(matrix[i, rows - 1 - i] for i in range(rows))
 '''
 
-a = np.array([  [1, 5, 12, 1],
-                [2, -4, 6, 7],
-                [3, 8, 5, 9],
-                [3, 5, 23, -6] ])
-sum2 = 0
-c = 0
-for k in range(len(a)-1,-1,-1):
-    for l in range(len(a[k])):
-        if c == l:
-            sum2 += a[k,l]
-    c += 1
-
-print(sum2)
-
-import numpy as np
-
-a = np.array([[1, 5, 12, 1],
-              [2, -4, 6, 7],
-              [3, 8, 5, 9],
-              [3, 5, 23, -6]])
-
-sum2 = 0
-for k in range(len(a)):
-    for l in range(len(a[k])):
-        # Check if the current element is on the secondary diagonal
-        if k + l == len(a[k]) - 1:
-            sum2 += a[k, l]
-
-print("Sum of Secondary Diagonal:", sum2)
